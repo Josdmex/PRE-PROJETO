@@ -8,11 +8,24 @@
 </head>
 <body>
     <header>
-            <form action="/">
-                <div class="login-main">
-                    <h1>Cadastrar-se agora</h1>
-                </div>
-            </form>
+        <div>
+            <h1>Cadastrar-se agora ou faça login</h1>
+            <div class="gmail-div">
+                <form action="/">
+                    <div class="email-div">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+                </form>
+                <form action="/">
+                    <div class="senha-div">
+                        <label for="senha">Senha</label>
+                        <input type="senha" id="senha" placeholder="Digite sua senha" required>
+                    </div>
+                </form>
+            </div>
+            <button type="login">Entrar</button>
+        </div>
     </header>
 </body>
 </html>
