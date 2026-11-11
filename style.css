@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+.card-login {
+    margin-bottom: 200px;
+    margin: auto;
+    height: 60px;
+    width: 400px;
+    background-color: blue;
+}
